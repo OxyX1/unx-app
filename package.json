@@ -1,6 +1,11 @@
 {
     "scripts": {
-        "install": "npm install express path",
+        "install": "npm install express path pwa-asset-generator",
         "start": "node server.js"
+    },
+    "dependencies": {
+        "express": "^4.21.2",
+        "path": "^0.12.7",
+        "pwa-asset-generator": "^5.0.0"
     }
 }
